@@ -42,13 +42,11 @@ Apache JMeter was used to simulate 600,000 virtual users over 60 seconds, with e
 
  💡 Server Type Comparison
 
-|-----------------------|---------------------|----------------------------------|-----------------------------------|
 | Server Type           | Behavior Under Load | Strengths                        | Weaknesses                        |
 |-----------------------|---------------------|----------------------------------|-----------------------------------|
 | Single-threaded       | Frequent failures   | Simple, easy to implement        | Blocks after 1 connection         |
 | Multi-threaded        | Moderate success    | Better concurrency               | Risk of too many threads          |
 | Thread Pool-based     | Highest stability   | Controlled scalability, efficient| Needs tuning of thread pool size  |
-|-----------------------|---------------------|----------------------------------|-----------------------------------|
 
 
 ## 🛠️ How to Run
